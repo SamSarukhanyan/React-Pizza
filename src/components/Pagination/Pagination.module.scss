@@ -2,6 +2,7 @@
   li{
    display: inline-block;
 
+   
 
  
     a {
@@ -16,10 +17,19 @@
       display: inline-block;
       color: #fe5f1e;
       
+      @media (max-width: 336px ) {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 32px;
+        margin-top: 30px;
+      }
+
       &:hover {
          background-color: #fe5f1e;
          color: #fff;
       }
+     
     }
  }
 

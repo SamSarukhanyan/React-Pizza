@@ -1,6 +1,14 @@
 @import '../variables';
 
 .categories {
+
+  @media (max-width: 1028px ) {
+    margin-top: -40px;
+  }
+  @media (max-width: 600px ) {
+   font-size: 14px;
+  }
+
   ul {
     display: flex;
 

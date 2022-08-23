@@ -2,6 +2,14 @@
 
 .sort {
   position: relative;
+
+  @media (max-width: 820px ) {
+    margin-top: -40px;
+  }
+  @media (max-width: 645px ) {
+    margin-top: -25px;
+  }
+    
   &__label {
     display: flex;
     align-items: center;

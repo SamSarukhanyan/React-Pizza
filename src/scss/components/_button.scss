@@ -96,13 +96,23 @@
   }
 
   &--add {
+
+   
+
     svg {
       margin-right: 2px;
+
+     
     }
 
     span {
       font-weight: 600;
       font-size: 16px;
+ 
+      @media(max-width: 340px) {
+         font-size: 13px;
+      }
+
     }
 
     &:hover {
@@ -134,6 +144,10 @@
     align-items: center;
     line-height: 23px;
     padding: 12px 25px;
+
+    @media(max-width: 340px) {
+      padding: 8px 28px;
+    }
 
     svg {
       margin-right: 8px;
