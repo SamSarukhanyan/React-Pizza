@@ -1,5 +1,5 @@
 {
-  "homepage": "https://SamSarukhanyan.github.io/react-pizza",
+  "homepage": "https://SamSarukhanyan.github.io/react-pizza/",
   "name": "reactpizzav2",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
     "ahooks": "^3.7.0",
     "axios": "^0.27.2",
     "clsx": "^1.2.1",
-    "gh-pages": "^4.0.0",
     "lodash.debounce": "^4.0.8",
+    "pages": "^0.0.16",
     "qs": "^6.11.0",
     "react": "^18.2.0",
     "react-content-loader": "^6.2.0",
@@ -56,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
