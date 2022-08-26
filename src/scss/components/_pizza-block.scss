@@ -18,17 +18,13 @@
   &__image {
     width: 260px;
   }
-
-  @media (max-width: 400px ) {
-    &__image {
-      width: 220px;
-    }
-  }
-  @media (max-width: 340px ) {
+  @media (max-width: 470px ) {
     &__image {
       width: 180px;
     }
   }
+
+
 
 
   &__title {

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate} from "react-router-dom";
+import s from './styles.module.css'
 
 
 const FullPizza: React.FC = () => {
@@ -34,7 +35,7 @@ const FullPizza: React.FC = () => {
   }
 
   return (
-    <div className="container">
+    <div className={s.root}>
       <img src={pizza.imageUrl} />
       <h2>{pizza.title}</h2>
       <h4>{pizza.price} ₽</h4>

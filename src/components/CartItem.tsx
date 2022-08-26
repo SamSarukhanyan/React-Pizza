@@ -68,7 +68,7 @@ const CartItemBlock: React.FC<CartItemProps> = ({ id, title, type, size, price, 
             />
           </svg>
         </button>
-        <b>{count}</b>
+        <b style={{margin: '5px'}}>{count}</b>
         <button
           onClick={onClickPlus}
           className="button button--outline button--circle cart__item-count-plus"

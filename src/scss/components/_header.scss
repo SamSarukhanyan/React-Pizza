@@ -17,8 +17,8 @@
 
     @media (max-width: 1028px ) {
       flex-direction: column;
-      height: 200px;
-      justify-content: space-evenly;
+      height: auto;
+      justify-content: center;
       align-items: center;
       
     }
@@ -28,7 +28,10 @@
 
   &__logo {
     display: flex;
- 
+    @media (max-width: 1028px ) {
+      
+      margin-bottom: 10px;
+   }
     
     img {
       margin-right: 15px;
